@@ -1,1 +1,121 @@
-zhe shi zhen de ma
+首页 资讯 精华 论坛 问答 博客 专栏 群组 更多 ▼ 您还未登录 ! 登录 注册
+justjavac(迷渡)
+博客微博相册收藏留言关于我
+  
+GitHub无法访问，修改hosts文件解决
+
+博客分类： 程序员
+ 
+前几天由于12306的抢票插件，导致了github无法访问，从昨天开始，github的访问又提示超时。由于我的博客一直托管在github pages上，因此第一时间访问了一下 http://justjavac.com 发现居然可以访问。说明github的服务器ip应该没有问题，问题出在了DNS上。于是又试了试 8.8.8.8，还是不行，最后只能是老办法了——hosts。感谢 http://artdialog.iteye.com/blog/1774098 的补充，他在博客中提供了 hosts 文件的下载。
+ 
+Java代码  收藏代码
+207.97.227.239 github.com   
+65.74.177.129 www.github.com   
+207.97.227.252 nodeload.github.com   
+207.97.227.243 raw.github.com  
+204.232.175.78 documentcloud.github.com  
+204.232.175.78 pages.github.com  
+ 
+如果你经常上github的话，那么一定也是一个程序员，我也就不用解释如何修改hosts了。
+
+28 
+顶2 
+踩 分享到：    
+web.py 0.3 新手指南 - FAQ | 随想录（程序员和收入）
+2013-01-22 12:30浏览 16706评论(11)分类:编程语言相关推荐
+评论
+11 楼 awphunter 2013-11-21  
+现在得删了
+10 楼 hugh.wang 2013-02-19  
+thanks a lot!!
+9 楼 syx278250658 2013-01-24  
+顶下 晚上回去试试  我用小乌龟 + 代理 也提交不了代码、、、
+8 楼 cnzxp521 2013-01-23  
+貌似我在家访问正常的，在公司就不能访问
+7 楼 Francis_java 2013-01-23  
+上不去真难受，写文档要放在iteye上，又不支持Markdown，排格式好麻烦。十分感谢啊
+6 楼 ileson 2013-01-23  
+终于明白天朝的良苦用心了。。。这是为了激励我们发动智慧，解决各种问题。。。
+5 楼 zyz251314 2013-01-23  
+  
+4 楼 huihuilou 2013-01-22  
+nice boy
+3 楼 xisuchi 2013-01-22  
+确实无法访问了...
+2 楼 381895649 2013-01-22  
+谢谢,哥们啊...
+1 楼 macrotea 2013-01-22  
+感谢指导 感谢指导
+发表评论
+  您还没有登录,请您登录后再发表评论
+justjavac的博客
+justjavac
+浏览: 3688286 次
+性别: Icon_minigender_1
+来自: 天津
+
+最近访客 更多访客>>
+lanjia728604的博客lanjia728604dylinshi126的博客dylinshi126liubaohuagood的博客liubaohuagoodcassielzhan的博客cassielzhan
+博客专栏
+7eca6ee3-d299-3924-8342-02305099fd96 实战 Groovy
+浏览量：10593
+文章分类
+全部博客 (638)
+代码之谜 (6)
+JavaScript quirks (5)
+程序员 (92)
+Java (93)
+BT编程 (7)
+html/css (64)
+Groovy&Grails (42)
+Android (20)
+C/C++ (5)
+PHP/Perl/Python (46)
+经典文章 (51)
+CodeIgniter (14)
+JQuery (10)
+笑话 (4)
+其他 (32)
+javascript (68)
+云计算 (0)
+html5 (7)
+面试 (8)
+google (3)
+nosql (2)
+nodejs (11)
+go (5)
+erlang (1)
+小常识 (3)
+冷知识 (5)
+database (4)
+web (11)
+架构 (12)
+Exception (0)
+社区版块
+我的资讯 (10)
+我的论坛 (42)
+我的问答 (8)
+存档分类
+2015-03 (1)
+2015-02 (2)
+2015-01 (3)
+更多存档...
+评论排行榜
+如何看待一些知名博客推广软文的行为？
+发福利，整理了一份关于“资源汇总”的汇总
+基于单个 div 的 CSS 绘图
+开发者福利！ChromeSnifferPlus 插件正式登 ...
+基于 DHT 网络的磁力链接和BT种子的搜索引 ...
+最新评论
+nobullet： 启发很大，不只是定点数。谢谢你。
+代码之谜（四）- 浮点数（从惊讶到思考）
+零度弥合： 博主，我一步一步跟着走，确实生成了views，但是在主页点链接 ...
+Grails 脚手架
+shihengli2010：    赞
+实战 Groovy: for each 剖析
+zpyzly： 学习能力考查确实最重要，但是开发软件的时候，解决问题的能力都只 ...
+老生常谈：面试算法有必要吗？
+nb_sy： ...
+Eclipse程序员要掌握的常用快捷键
+声明：ITeye文章版权属于作者，受法律保护。没有作者书面许可不得转载。若作者同意转载，必须以超链接形式标明文章原始出处和作者。
+? 2003-2015 ITeye.com. All rights reserved. [ 京ICP证110151号 京公网安备110105010620 ]
